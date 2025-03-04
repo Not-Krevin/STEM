@@ -51,14 +51,15 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   google-scholar: https://scholar.google.com/citations?user=GAqx4AYAAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/blaine-weiss-8bba53b8/
   github: https://github.com/BlaineWeiss
-  email: "someone@example.com"
+  #email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: 
-  twitter: 
-  patreon: 
-  youtube: 
-  whatsapp: 
+  #facebook: 
+  #twitter: 
+  #patreon: 
+  #youtube: 
+  #whatsapp: 
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
