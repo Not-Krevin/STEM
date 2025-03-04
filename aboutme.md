@@ -11,4 +11,5 @@ My name is Blaine Weiss. I am a graduate student at the University of Kentucky w
 
 ### My story
 Read my personal journey into science here!
-https://medicine.uky.edu/news/student-spotlight-blaine-weiss-2024-11-01t16-45-02
+
+"https://medicine.uky.edu/news/student-spotlight-blaine-weiss-2024-11-01t16-45-02"
