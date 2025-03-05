@@ -22,7 +22,7 @@ cover-img: "/assets/img/StillRGB.png"
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Github Repositories: "BlaineWeiss"
+    - Github Repositories: "https://github.com/BlaineWeiss"
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
   #Author's home: "https://deanattali.com"
@@ -52,7 +52,7 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   google-scholar: https://scholar.google.com/citations?user=GAqx4AYAAAAJ&hl=en
-  linkedin: https://www.linkedin.com/in/blaine-weiss-8bba53b8/
+  linkedin: https://www.linkedin.com/in/blaine-weiss-8bba53b8
   github: BlaineWeiss
   #email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
