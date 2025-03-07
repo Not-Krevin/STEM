@@ -9,12 +9,11 @@ tags: []
 author: Blaine Weiss
 ---
 
-  Career path is not determined by aptitude tests but rather by where we put our time in. You may have taken one as I did in high school, designed to inform and guide you to a career utilizing your strengths... and ideally, your interests.
-When mine read engineer, I'm embarrassed to say I was confused. I had no idea what an engineer does. I had spent the majority of my life convinced that I wanted to be a physician. I wanted to help people, as
-we all do pursuing the profession, and I believed my proclivity to math and science would actualize into an admission to medical school. There were only a couple issues, at first, that stood in my way.
-They're called Tomophobia and germophobia. The sight of gore could immediately invoke sweating, anxiety, and fear. And I could hardly stand to be around anyone that was sick. You might expect that to be a definitive deal breaker for medical school, but
-my applications never got that far! (ha) In the meantime I was volunteering for a Alzheimer's disease research lab conducting research on rodents, where my fears were played out as living nightmares, and my own personal circle of hell. Surely I could never become good at this, I could hardly stand in the room some days.
-I should have questioned more then why I decided to show up _there_ everyday, and not anywhere else. I had a job to pay my bills through undergrad, and I gave up precious work hours to be in the lab instead. So why did I do it?
+A career path is not determined by aptitude tests, it's shaped by where we invest our time. You may have taken one of these tests as I did in high school, designed to match you with a career that aligns with your strengths, and ideally your interests.
+When mine read engineer, I'm embarrassed to say I was confused. I had no idea what an engineer actually did. I had spent the majority of my life convinced that I wanted to be a physician. I wanted to help people, as many do pursuing the profession, and I believed my aptitude in math and science would materialize into an admission letter to medical school. There were only a couple issues, at first, that stood in my way.
+They're called Tomophobia and germophobia. The sight of gore could immediately cause sweating, anxiety, and fear. And I could hardly stand to be around anyone sick. You might expect that to be a definitive deal breaker for medical school, but
+my applications never got that far! (Ha) In the meantime I volunteered in a Alzheimer's disease research lab conducting research on rodents. There my fears were played out as living nightmares, and my own personal circle of hell. Surely I could never become good at this, I could hardly stand in the room some days.
+I should have questioned more why I decided to show up _there_ everyday, and not anywhere else. I had a job to pay my bills through undergrad, and I gave up precious work hours to be in the lab instead. So why did I do it?
 
 **The science of course!**
 
