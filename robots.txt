@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://leomartinalarcon.github.io/sitemap.xml
+
+# Prevent crawling of search data
+Disallow: /assets/data/searchcorpus.json
+
+# Allow crawling of assets for proper indexing
+Allow: /assets/img/
+Allow: /assets/css/
+Allow: /assets/js/

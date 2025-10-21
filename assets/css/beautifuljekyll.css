@@ -5,7 +5,7 @@ layout: null
 @import url("pygment_highlights.css");
 
 :root {
-  /* config file CSS variables */
+  /* config file CSS variables - Light mode (default) */
   --page-col: {{ site.page-col | default: "#FFFFFF" }};
   --text-col: {{ site.text-col | default: "#404040" }};
   --link-col: {{ site.link-col | default: "#008AFF" }};
@@ -22,6 +22,133 @@ layout: null
   --body-font: 'Lora', 'Times New Roman', serif;
   --header-font: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --mid-col: #808080;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --page-col: #1a1a1a;
+    --text-col: #e0e0e0;
+    --link-col: #4da6ff;
+    --hover-col: #66b3ff;
+    --navbar-col: #2d2d2d;
+    --navbar-text-col: #e0e0e0;
+    --navbar-border-col: #404040;
+    --footer-col: #2d2d2d;
+    --footer-text-col: #b0b0b0;
+    --footer-link-col: #e0e0e0;
+    --footer-hover-col: #66b3ff;
+    --mid-col: #999999;
+  }
+}
+
+/* Manual dark mode override */
+:root[data-theme="dark"] {
+  --page-col: #1a1a1a;
+  --text-col: #e0e0e0;
+  --link-col: #4da6ff;
+  --hover-col: #66b3ff;
+  --navbar-col: #2d2d2d;
+  --navbar-text-col: #e0e0e0;
+  --navbar-border-col: #404040;
+  --footer-col: #2d2d2d;
+  --footer-text-col: #b0b0b0;
+  --footer-link-col: #e0e0e0;
+  --footer-hover-col: #66b3ff;
+  --mid-col: #999999;
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: var(--navbar-col);
+  border: 2px solid var(--navbar-border-col);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode-toggle:focus {
+  outline: 3px solid var(--link-col);
+  outline-offset: 2px;
+}
+
+/* --- Accessibility --- */
+
+/* Skip to main content link */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: var(--link-col);
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  z-index: 10000;
+  border-radius: 0 0 4px 0;
+  font-weight: bold;
+}
+
+.skip-link:focus {
+  top: 0;
+  outline: 3px solid var(--hover-col);
+  outline-offset: 2px;
+}
+
+/* Improved focus visibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 2px solid var(--link-col);
+  outline-offset: 2px;
+}
+
+/* Ensure sufficient color contrast in dark mode */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) code {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+  }
+
+  :root:not([data-theme="light"]) table tr {
+    background-color: #1a1a1a;
+    border-color: #404040;
+  }
+
+  :root:not([data-theme="light"]) table tr:nth-child(2n) {
+    background-color: #252525;
+  }
+}
+
+:root[data-theme="dark"] code {
+  background-color: #2d2d2d;
+  color: #f0f0f0;
+}
+
+:root[data-theme="dark"] table tr {
+  background-color: #1a1a1a;
+  border-color: #404040;
+}
+
+:root[data-theme="dark"] table tr:nth-child(2n) {
+  background-color: #252525;
 }
 
 /* --- General --- */

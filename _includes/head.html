@@ -2,6 +2,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Security headers -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+
+  <!-- Resource hints for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
+  {% if site.lang %}
+  <meta http-equiv="content-language" content="{{ site.lang }}">
+  {% endif %}
+
   {% capture pagetitle %}
     {%- if page.share-title -%}
       {{ page.share-title | strip_html | xml_escape }}
@@ -166,10 +182,23 @@
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
   {% endif %}
 
+  <!-- PWA Support -->
+  <link rel="manifest" href="{{ '/manifest.json' | relative_url }}">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="LMA Portfolio">
+  <link rel="apple-touch-icon" href="{{ site.avatar | default: '/assets/img/avatar-icon.png' | relative_url }}">
+  {% unless site.mobile-theme-col %}
+  <meta name="theme-color" content="#008AFF">
+  {% endunless %}
+
   {% if page.head-extra %}
     {% for file in page.head-extra %}
       {% include {{ file }} %}
     {% endfor %}
   {% endif %}
+
+  <!-- Structured Data for SEO -->
+  {% include seo-schema.html %}
 
 </head>

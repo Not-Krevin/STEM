@@ -1,0 +1,56 @@
+<!-- Structured Data (Schema.org JSON-LD) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebPage{% endif %}",
+  "headline": "{{ page.title | default: site.title | escape }}",
+  {% if page.subtitle %}
+  "alternativeHeadline": "{{ page.subtitle | escape }}",
+  {% endif %}
+  "url": "{{ page.url | absolute_url }}",
+  {% if page.date %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last-updated | default: page.date | date_to_xmlschema }}",
+  {% endif %}
+  {% if page.cover-img or page.thumbnail-img or page.share-img %}
+  "image": "{{ page.share-img | default: page.cover-img | default: page.thumbnail-img | absolute_url }}",
+  {% endif %}
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author | default: site.author | escape }}",
+    "url": "{{ '/' | absolute_url }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title | escape }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.avatar | default: '/assets/img/avatar-icon.png' | absolute_url }}"
+    }
+  },
+  "description": "{{ page.share-description | default: page.subtitle | default: page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.url | absolute_url }}"
+  }
+}
+</script>
+
+{% if page.layout != 'post' %}
+<!-- Person Schema for About/Homepage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author }}",
+  "url": "{{ '/' | absolute_url }}",
+  "email": "{{ site.social-network-links.email }}",
+  "image": "{{ site.avatar | default: '/assets/img/avatar-icon.png' | absolute_url }}",
+  "jobTitle": "Software Engineer",
+  "sameAs": [
+    {% if site.social-network-links.github %}"https://github.com/{{ site.social-network-links.github }}",{% endif %}
+    {% if site.social-network-links.linkedin %}"https://www.linkedin.com/in/{{ site.social-network-links.linkedin }}/"{% endif %}
+  ]
+}
+</script>
+{% endif %}
