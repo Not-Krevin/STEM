@@ -6,7 +6,7 @@ permalink: /members
 
 ## 👨‍🏫 Faculty
 
-<img src="/assets/img/members/yin-chen.jpg" alt="Dr. Yin Chen" width="180" style="border-radius: 10px; margin-bottom: 10px;">
+<img src="/assets/img/members/chen-photo.jpg" alt="Dr. Yin Chen" width="180" style="border-radius: 10px; margin-bottom: 10px;">
 
 - **Dr. Yin Chen** — Associate Professor, Reitaku University  
   Project Associate Professor, Keio University  
