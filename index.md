@@ -3,13 +3,13 @@ layout: page
 title: STEM Portfolio
 ---
 
-## About Me
+<h2 id="about">About Me</h2>
 
 I am a STEM student focused on **Digital Signal Processing** and **Robotics**. My work bridges the gap between theoretical mathematics (like DTFT) and real-world hardware implementation.
 
 ---
 
-## Academic Research: Aperiodic Signals
+<h2 id="academic">Academic Research: Aperiodic Signals</h2>
 
 Currently exploring the **Discrete-Time Fourier Transform (DTFT)**. The transform is defined as:
 
@@ -19,7 +19,7 @@ In my research, I apply this to noise-reduction algorithms in low-power sensors.
 
 ---
 
-## Personal Projects
+<h2 id="projects">Personal Projects</h2>
 
 | Project | Tools | Description |
 | :--- | :--- | :--- |
