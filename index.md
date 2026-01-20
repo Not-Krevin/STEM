@@ -46,6 +46,7 @@ I am a **Computer Engineer** student at **San Jose State University**, with the 
 
 | Class | About | knowledge Gained |
 | :--- | :--- | :--- |
+| **Intro to Engineering** | West Valley College | Wide range of skills: CAD, Excel, and hands on material work  |
 | **Tutor Training** | West Valley College | Developed pedagogy skills: simplifying complex technical concepts for diverse learners.  |
 | **Public Speaking** | West Valley College | Enhanced verbal communication and the ability to present technical data to non-technical audiences.  |
 | **Biology** | West Valley College | Studied the scientific method and cellular processes, useful for bioinformatics applications.  |
