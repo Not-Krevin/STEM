@@ -13,8 +13,8 @@
 baseurl: ""
 
 # Name of website
-title: Press me!
-description: Christian Ministry • Prayer • Connection
+title: Welcome to my career and education website.
+description: Career • Studying • Connection
 
 # Your name to show in the footer
 author: Kevin Higgins
@@ -60,10 +60,10 @@ katex: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  instagram: not.krevin
-  spotify: kevin.spams.memes
+#  instagram: not.krevin
+#  spotify: kevin.spams.memes
   linkedin: kevin-higgins-434833300
-  facebook: kevin.higgins.9085790
+#  facebook: kevin.higgins.9085790
   email: "KEVINHIGGINS1333@gmail.com"
   
 
@@ -107,7 +107,7 @@ social-network-links:
 # Select which social network share links to show in posts
 share-links-active:
   twitter: false
-  facebook: true
+  facebook: false
   linkedin: true
   vk: false
   reddit: false
@@ -280,7 +280,7 @@ timezone: "America/Los_Angeles"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-url: "https://www.gty.org/sermons/archive?tab=scripture"
+# url: "https://www.gty.org/sermons/archive?tab=scripture"
 paginate: 5
 
 kramdown:
