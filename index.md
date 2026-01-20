@@ -1,23 +1,43 @@
 ---
 layout: page
-title: Welcome
 ---
 
+<!-- Section 1: About -->
+<section id="about">
+## About Me
+I am a STEM student focused on **Digital Signal Processing** and **Robotics**. My work bridges the gap between theoretical mathematics (like DTFT) and real-world hardware implementation.
+</section>
 
-I believe that we are called to connect and support one another through faith. Whether you are looking for prayer, want to read my testimony, or simply wish to talk about God together, I am glad you are here.
+---
 
-![Image](assets/img/IMG_0225.JPG)
+<!-- Section 2: Academic Work (Using LaTeX for math) -->
+<section id="academic">
+## Academic Research: Aperiodic Signals
+Currently exploring the **Discrete-Time Fourier Transform (DTFT)**. 
 
-<div style="text-align: center;">
-  <a href="/prayer/" style="background-color: #4A69BD; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-weight: bold; display: inline-block; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    Request Prayer Here
-  </a>
-</div>
+The transform is defined as:
+$$X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n] e^{-j\omega n}$$
 
-> "The Lord is near to all who call on him, to all who call on him in truth.". - **Psalm 145:18**
+In my research, I apply this to noise-reduction algorithms in low-power sensors.
+</section>
 
-<div style="text-align: center;">
-  <a href="https://www.gotquestions.org/" style="background-color: #F52727; color: white; padding: 15px 30px; text-decoration: none; border-radius: 30px; font-weight: bold; display: inline-block; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    DONT CLICK ME
-  </a>
+---
+
+<!-- Section 3: Projects (Slick Grid) -->
+<section id="projects">
+## Personal Projects
+
+| Project | Tools | Description |
+| :--- | :--- | :--- |
+| **Signal Analyzer** | Python, NumPy | A tool to visualize DTFT spectrums in real-time. |
+| **Autonomous Rover** | C++, Arduino | PID-controlled robot with obstacle avoidance. |
+| **Data Scraper** | SQL, Python | Automated tracking of academic journal publications. |
+
+![Project Image](/assets/img/project-screenshot.png)
+</section>
+
+---
+
+<div style="text-align: center; margin-top: 50px;">
+  <button class="dark-mode-toggle">🌓 Toggle Dark Mode</button>
 </div>
