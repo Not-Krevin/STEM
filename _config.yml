@@ -23,10 +23,13 @@ author: Kevin Higgins
 ###############################################
 
 navbar-links:
-  Home: "https://not-krevin.github.io/"
-  Click me!: "https://www.gotquestions.org/"
-  About Me: "about"
-  Prayer: "prayer"
+  About: "#about"
+  Academic Work: "#academic"
+  Projects: "#projects"
+  Resume: "/assets/resume.pdf" # Link directly to your PDF
+
+# STEM must-have: Math equations support
+katex: true
 
 ################
 # --- Logo --- #
