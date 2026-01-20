@@ -1,0 +1,14 @@
+.dark-theme {
+  background-color: #1a1a1a !important;
+  color: #e0e0e0 !important;
+}
+.dark-theme .navbar, .dark-theme footer {
+  background-color: #252525 !important;
+  color: white !important;
+}
+.dark-mode-toggle {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
