@@ -9,13 +9,7 @@ I am a **Computer Engineer** student at **San Jose State University**, with the 
 
 ---
 
-<h2 id="academic">Academic Research: Aperiodic Signals</h2>
-
-Currently exploring the **Discrete-Time Fourier Transform (DTFT)**. The transform is defined as:
-
-$$X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n] e^{-j\omega n}$$
-
-As im learning, I've apply this to noise-reduction algorithms in low-power sensors in personally fun test projects.
+<h2 id="academic">Academic Work</h2>
 
 **Coding Classes I've taken**
 
@@ -59,6 +53,12 @@ As im learning, I've apply this to noise-reduction algorithms in low-power senso
 | **Kinesiology** | West Valley College | Gained insight into human biomechanics and the physical mechanics of movement.  | 
 | **Business Analysis** | West Valley College | Developed skills in requirement gathering, process modeling, and data-driven decision making.  | 
 
+Currently exploring the **Discrete-Time Fourier Transform (DTFT)**. The transform is defined as:
+
+$$X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n] e^{-j\omega n}$$
+
+As im learning, I've apply this to noise-reduction algorithms in low-power sensors in personally fun test projects.
+
 ---
 
 <h2 id="projects">Personal Projects</h2>
@@ -68,6 +68,9 @@ As im learning, I've apply this to noise-reduction algorithms in low-power senso
 | **Signal Analyzer** | Python, NumPy |   |
 | **Autonomous Rover** | C++, Arduino |   |
 | **Data Scraper** | SQL, Python |   |
+| **Toyota Hybrid Battery** |  |   |
+| **Automotive Sensor Diagnosis and Replacement** |  |   |
+| **Custom LLM: marketplace analyizer and grapher** |   |   |
 
 ![Project Image](/assets/img/project-screenshot.png)
 
