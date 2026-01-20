@@ -28,6 +28,11 @@ navbar-links:
   Projects: "#projects"
   Resume: "/assets/resume.pdf" # Link directly to your PDF
 
+site-js:
+  - "/assets/js/darkmode.js"
+site-css:
+  - "/assets/css/custom.css"
+
 # STEM must-have: Math equations support
 katex: true
 
