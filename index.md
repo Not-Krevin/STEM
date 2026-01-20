@@ -28,3 +28,6 @@ In my research, I apply this to noise-reduction algorithms in low-power sensors.
 | **Data Scraper** | SQL, Python | Automated tracking of academic journal publications. |
 
 ![Project Image](/assets/img/project-screenshot.png)
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
