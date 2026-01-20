@@ -5,7 +5,7 @@ title: STEM Portfolio
 
 <h2 id="about">About Me</h2>
 
-I am a STEM student focused on **Digital Signal Processing** and **Robotics**. My work bridges the gap between theoretical mathematics (like DTFT) and real-world hardware implementation.
+I am a **Computer Engineer** student at **San Jose State University**, with the asperation to get into the **Rehabilitaion Engineering feild**, focused on Digital Signal Processing and Robotics. My work bridges the gap between theoretical mathematics (like DTFT) and real-world hardware implementation.
 
 ---
 
@@ -15,7 +15,7 @@ Currently exploring the **Discrete-Time Fourier Transform (DTFT)**. The transfor
 
 $$X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n] e^{-j\omega n}$$
 
-In my research, I apply this to noise-reduction algorithms in low-power sensors.
+As im learning, I've apply this to noise-reduction algorithms in low-power sensors in personally fun test projects.
 
 **Coding Classes I've taken**
 
