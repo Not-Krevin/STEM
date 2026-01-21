@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div style="text-align: right;">
-  <button id="theme-toggle">🌙 Dark Mode</button>
+  <button id="theme-toggle">Dark Mode</button>
 </div>
 
 <h2 id="about">About Me</h2>
