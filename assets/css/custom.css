@@ -1,14 +1,49 @@
-.dark-theme {
-  background-color: #1a1a1a !important;
-  color: #e0e0e0 !important;
+/* 1. Define Light Mode Colors */
+:root {
+  --bg-color: #f4f7f9;        /* Your soft Slate & Sky */
+  --text-color: #2D3436;
+  --nav-bg: #FFFFFF;
+  --btn-bg: #2D3436;          /* Dark button in light mode */
+  --btn-text: #FFFFFF;
+  --border-color: #DDDDDD;
 }
-.dark-theme .navbar, .dark-theme footer {
-  background-color: #252525 !important;
-  color: white !important;
+
+/* 2. Define Dark Mode Colors */
+body.dark-mode {
+  --bg-color: #121212;        /* Deep matte black */
+  --text-color: #e0e0e0;
+  --nav-bg: #1a1a1a;
+  --btn-bg: #f4f7f9;          /* Light button in dark mode */
+  --btn-text: #121212;
+  --border-color: #333333;
 }
-.dark-mode-toggle {
+
+/* 3. Apply the Variables */
+body {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.navbar, .navbar-custom {
+  background-color: var(--nav-bg) !important;
+  border-bottom: 1px solid var(--border-color) !important;
+}
+
+/* 4. The Smart Button Styling */
+#theme-toggle {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
   cursor: pointer;
-  padding: 5px 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+#theme-toggle:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.2);
 }
