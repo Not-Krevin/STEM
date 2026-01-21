@@ -2,12 +2,9 @@
 layout: page
 ---
 
-<div style="text-align: center; margin-top: 50px; padding-bottom: 50px;">
-  <button id="theme-toggle">Dark Mode</button>
+<div style="text-align: right;">
+  <button id="theme-toggle">🌙 Dark Mode</button>
 </div>
-
-<!-- Add the JS link at the bottom of the file -->
-<script src="/assets/js/darkmode.js"></script>
 
 <h2 id="about">About Me</h2>
 
