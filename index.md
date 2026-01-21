@@ -2,6 +2,13 @@
 layout: page
 ---
 
+<div style="text-align: center; margin-top: 50px; padding-bottom: 50px;">
+  <button id="theme-toggle">Dark Mode</button>
+</div>
+
+<!-- Add the JS link at the bottom of the file -->
+<script src="/assets/js/darkmode.js"></script>
+
 <h2 id="about">About Me</h2>
 
 I am a **Computer Engineer** student at **San Jose State University**, with the asperation to get into the **Rehabilitaion Engineering feild**, focused on Digital Signal Processing and Robotics. My work bridges the gap between theoretical mathematics (like DTFT) and real-world hardware implementation.
