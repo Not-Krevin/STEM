@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-# title: STEM Portfolio
+# title STEM Portfolio
 
 <h2 id="about">About Me</h2>
 
