@@ -66,12 +66,12 @@ As im learning, I've apply this to noise-reduction algorithms in low-power senso
 
 | Project | Tools | Description |
 | :--- | :--- | :--- |
-| **Signal Analyzer** | Python, NumPy |   |
-| **Autonomous Rover** | C++, Arduino |   |
-| **Data Scraper** | SQL, Python |   |
-| **Toyota Hybrid Battery** |  |   |
-| **Automotive Sensor Diagnosis and Replacement** |  |   |
-| **Custom LLM: marketplace analyizer and grapher** |   |   |
+| **Signal Analyzer** | Python, NumPy | Processed raw signal data to filter noise and perform Fourier Transforms (FFT) for frequency analysis.  |
+| **Autonomous Rover** | C++, Arduino | Developed obstacle-avoidance logic using ultrasonic sensors and PID control for smooth motor navigation.  |
+| **Data Scraper** | SQL, Python | Built a web scraper using BeautifulSoup/Selenium to extract market data and stored it in a relational database for querying.  |
+| **Toyota Hybrid Battery** | Multimeter, OBDII, High-Voltage Safety Gear | Diagnosed individual cell voltage drops and performed battery reconditioning or busbar cleaning to restore hybrid system efficiency.  |
+| **Automotive Sensor Diagnosis and Replacement** | Oscilloscope, OBDII Scanner, Hand Tools | Interpreted error codes (P-codes) and used live data streaming to identify and replace faulty O2, MAF, or TPS sensors.  |
+| **Custom LLM: marketplace analyizer and grapher** | Python, LangChain, Matplotlib/Plotly | Fine-tuned or prompted an LLM to parse marketplace trends and generate real-time visual graphs of pricing and demand.  |
 
 ![Project Image](/assets/img/project-screenshot.png)
 
