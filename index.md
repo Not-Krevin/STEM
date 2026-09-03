@@ -8,7 +8,7 @@ layout: page
 
 <h2 id="about">About Me</h2>
 
-I am a **Computer Engineer** student at **San Jose State University**, with the aspirations to get into the **IT / Engineering field**, focused on Digital Signal Processing and Robotics. My work bridges the gap between theoretical mathematics (like DTFT) and real-world hardware implementation.
+I am a junior **Computer Engineer** student at **San Jose State University**, with the aspirations to get into the **IT / Engineering field**, focused on Digital Signal Processing, Low level coding, embedded systems and Medical device technology. My work bridges the gap between theoretical mathematics (like DTFT) and real-world hardware implementation.
 
 ---
 
