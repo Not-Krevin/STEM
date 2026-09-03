@@ -8,9 +8,25 @@ layout: page
 
 <h2 id="about">About Me</h2>
 
-I am a **Computer Engineer** student at **San Jose State University**, with the asperation to get into the **Rehabilitaion Engineering feild**, focused on Digital Signal Processing and Robotics. My work bridges the gap between theoretical mathematics (like DTFT) and real-world hardware implementation.
+I am a **Computer Engineer** student at **San Jose State University**, with the aspirations to get into the **IT / Engineering field**, focused on Digital Signal Processing and Robotics. My work bridges the gap between theoretical mathematics (like DTFT) and real-world hardware implementation.
 
 ---
+
+<h2 id="projects">Personal Projects</h2>
+
+| Project | Tools | Description |
+| :--- | :--- | :--- |
+| **Signal Analyzer** | Python, NumPy | Processed raw signal data to filter noise and perform Fourier Transforms (FFT) for frequency analysis.  |
+| **Autonomous Rover** | C++, Arduino | Developed obstacle-avoidance logic using ultrasonic sensors and PID control for smooth motor navigation.  |
+| **Data Scraper** | SQL, Python | Built a web scraper using BeautifulSoup/Selenium to extract market data and stored it in a relational database for querying.  |
+| **Toyota Hybrid Battery** | Multimeter, OBDII, High-Voltage Safety Gear | Diagnosed individual cell voltage drops and performed battery reconditioning or busbar cleaning to restore hybrid system efficiency.  |
+| **Automotive Sensor Diagnosis and Replacement** | Oscilloscope, OBDII Scanner, Hand Tools | Interpreted error codes (P-codes) and used live data streaming to identify and replace faulty O2, MAF, or TPS sensors.  |
+| **Custom LLM: marketplace analyizer and grapher** | Python, LangChain, Matplotlib/Plotly | Fine-tuned or prompted an LLM to parse marketplace trends and generate real-time visual graphs of pricing and demand.  |
+| **Custom C shell** | Git, Linux, C/C++, html, CSS  | Current work in progress working with Linux kernals and command line. Goal more optimization and understanding for my person Linux distro uses.  |
+| **Custom digital RMP gauge and MPG optimizer** | Python, Toyota TechStream | Using a ESP32 for interface, OP2D plug and sideloaded app for testing. Current work in progress. Endgoal is less cable usage and using the ESP32's Bluetooth capabilities  |
+| **Camp Buddies** | Python, Toyota TechStream | Current team project in CMPE 131 software engineering. The goal of the app is to optimize and organize camping teams so items are noted and brought. USGS maps pushes to uses in group and available for free download to phone.  |
+Bluetooth capabilities  |
+| **Quantum Physics Simulation** | Linux VM, C++, C#, VS debugger | (Linux Group Project) This was with some students at UCSC. Mainly kitty coded by physics majors then I was brought on the team for debugging and using C++ knowledge managed to make the simulation %40.1 more optimized.  |
 
 <h2 id="academic">Academic Work</h2>
 
@@ -18,11 +34,13 @@ I am a **Computer Engineer** student at **San Jose State University**, with the 
 
 | Class | Location | knowledge Gained |
 | :--- | :--- | :--- |
+| **Assembly Programming** | SJSU | Gained low-level understanding of CPU architecture, registers, and direct memory manipulation.  |
+| **Circuit Analysis** | SJSU | Learned about circuit topology and how the principles of analog circuits are involved and effect our everyday life.   |
 | **C++ Programming** | West Valley College | Mastered OOP principles (Inheritance, Polymorphism, Encapsulation) and memory management.  |
 | **Data Structures - Advanced C/C++** | West Valley College | Implemented complex structures (Linked Lists, Trees, Hash Tables) and analyzed algorithm efficiency (Big O).  |
 | **Intro to Python** | Code with Mosh | Learned Pythonic syntax, data manipulation, and automation scripting for rapid development.  |
 | **Embedded Systems** | Coursera | Developed firmware for microcontrollers, focusing on hardware-software interfacing and real-time constraints.  |
-| **Assembly Programing** | SJSU(in progress) | Gained low-level understanding of CPU architecture, registers, and direct memory manipulation.  |
+
 
 **Math Classes I've taken**
 
@@ -31,13 +49,13 @@ I am a **Computer Engineer** student at **San Jose State University**, with the 
 | **Trigonometry** | West Valley College | Mastered geometric relationships, identities, and wave functions essential for physics and graphics.  |
 | **Calculus I** | West Valley College | Developed a foundation in limits and derivatives for analyzing rates of change and optimization.  |
 | **Calculus II** | West Valley College | Focused on advanced integration techniques, infinite series, and Taylor polynomials. |
-| **Calculus III** | West Valley College | Applied calculus to multivariable functions, vector fields, and 3D space modeling. |
+| **Calculus III** | West Valley College | Applied calculus to multi variable functions, vector fields, and 3D space modeling. |
 | **Discrete Mathematics** | Evergreen College | Learned logic, set theory, and graph theory the mathematical foundation of computer science. |
 | **Differential Equations** | West Valley College | Modeled dynamic physical systems using first and second order linear differential equations.  |
 | **Linear Algebra** | West Valley College | Mastered matrix operations, vector spaces, and eigenvalues critical for AI and computer graphics. |
 | **General Topology** | Daniel Chan | Studied abstract spaces, continuity, and compactness, sharpening high-level analytical reasoning. |
 
-**Phsyics Classes I've taken**
+**Physics Classes I've taken**
 
 | Class | About | knowledge Gained |
 | :--- | :--- | :--- |
@@ -61,20 +79,10 @@ Currently exploring the **Discrete-Time Fourier Transform (DTFT)**. The transfor
 
 $$X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n] e^{-j\omega n}$$
 
-As im learning, I've apply this to noise-reduction algorithms in low-power sensors in personally fun test projects.
+As I'm learning, I've apply this to noise-reduction algorithms in low-power sensors in personally fun test projects.
 
 ---
 
-<h2 id="projects">Personal Projects</h2>
-
-| Project | Tools | Description |
-| :--- | :--- | :--- |
-| **Signal Analyzer** | Python, NumPy | Processed raw signal data to filter noise and perform Fourier Transforms (FFT) for frequency analysis.  |
-| **Autonomous Rover** | C++, Arduino | Developed obstacle-avoidance logic using ultrasonic sensors and PID control for smooth motor navigation.  |
-| **Data Scraper** | SQL, Python | Built a web scraper using BeautifulSoup/Selenium to extract market data and stored it in a relational database for querying.  |
-| **Toyota Hybrid Battery** | Multimeter, OBDII, High-Voltage Safety Gear | Diagnosed individual cell voltage drops and performed battery reconditioning or busbar cleaning to restore hybrid system efficiency.  |
-| **Automotive Sensor Diagnosis and Replacement** | Oscilloscope, OBDII Scanner, Hand Tools | Interpreted error codes (P-codes) and used live data streaming to identify and replace faulty O2, MAF, or TPS sensors.  |
-| **Custom LLM: marketplace analyizer and grapher** | Python, LangChain, Matplotlib/Plotly | Fine-tuned or prompted an LLM to parse marketplace trends and generate real-time visual graphs of pricing and demand.  |
 
 ![Project Image](/assets/img/project-screenshot.png)
 
