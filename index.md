@@ -25,7 +25,6 @@ I am a **Computer Engineer** student at **San Jose State University**, with the 
 | **Custom C shell** | Git, Linux, C/C++, html, CSS  | Current work in progress working with Linux kernals and command line. Goal more optimization and understanding for my person Linux distro uses.  |
 | **Custom digital RMP gauge and MPG optimizer** | Python, Toyota TechStream | Using a ESP32 for interface, OP2D plug and sideloaded app for testing. Current work in progress. End goal is  using more of the ESP32's Bluetooth capabilities  |
 | **Camp Buddies** | Python, Toyota TechStream | Current team project in CMPE 131 software engineering. The goal of the app is to optimize and organize camping teams so items are noted and brought. USGS maps pushes to uses in group and available for free download to phone.  |
-Bluetooth capabilities  |
 | **Quantum Physics Simulation** | Linux VM, C++, C#, VS debugger | (Linux Group Project) This was with some students at UCSC. Mainly kitty coded by physics majors then I was brought on the team for debugging and using C++ knowledge managed to make the simulation %40.1 more optimized.  |
 
 <h2 id="academic">Academic Work</h2>
