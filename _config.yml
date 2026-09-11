@@ -26,7 +26,7 @@ navbar-links:
   About: "#about"
   Academic Work: "#academic"
   Projects: "#projects"
-  Resume: "/assets/resume.pdf" # Link directly to your PDF
+  Resume: "/assets/STEM Resume - 2026 .pdf" # Link directly to your PDF
 
 # STEM must-have: Math equations support
 katex: true
