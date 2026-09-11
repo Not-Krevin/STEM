@@ -16,16 +16,16 @@ I am a junior **Computer Engineer** student at **San Jose State University**, wi
 
 | Project | Tools | Description |
 | :--- | :--- | :--- |
+| **Toyota Hybrid Battery** | Multimeter, OBDII, High-Voltage Safety Gear | Diagnosed individual cell voltage drops and performed battery reconditioning or busbar cleaning to restore hybrid system efficiency.  |
+| **LLM: marketplace analyizer and grapher** | Python, LangChain, Matplotlib/Plotly | Fine-tuned or prompted an LLM to parse marketplace trends and generate real-time visual graphs of pricing and demand.  |
+| **Quantum Physics Simulation** | Linux VM, C++, C#, VS debugger | (Linux Group Project) This was with some students at UCSC. Mainly kitty coded by physics majors then I was brought on the team for debugging and using C++ knowledge managed to make the simulation %40.1 more optimized.  |
+| **Custom digital RMP gauge and MPG optimizer** | Python, Toyota TechStream | Using a ESP32 for interface, OP2D plug and sideloaded app for testing. Current work in progress. End goal is  using more of the ESP32's Bluetooth capabilities  |
 | **Signal Analyzer** | Python, NumPy | Processed raw signal data to filter noise and perform Fourier Transforms (FFT) for frequency analysis.  |
 | **Autonomous Rover** | C++, Arduino | Developed obstacle-avoidance logic using ultrasonic sensors and PID control for smooth motor navigation.  |
 | **Data Scraper** | SQL, Python | Built a web scraper using BeautifulSoup/Selenium to extract market data and stored it in a relational database for querying.  |
-| **Toyota Hybrid Battery** | Multimeter, OBDII, High-Voltage Safety Gear | Diagnosed individual cell voltage drops and performed battery reconditioning or busbar cleaning to restore hybrid system efficiency.  |
-| **Automotive Sensor Diagnosis and Replacement** | Oscilloscope, OBDII Scanner, Hand Tools | Interpreted error codes (P-codes) and used live data streaming to identify and replace faulty O2, MAF, or TPS sensors.  |
-| **Custom LLM: marketplace analyizer and grapher** | Python, LangChain, Matplotlib/Plotly | Fine-tuned or prompted an LLM to parse marketplace trends and generate real-time visual graphs of pricing and demand.  |
+| **Automotive Sensor Diagnosis and Replacement** | Oscilloscope, OBDII Scanner, Hand Tools | Interpreted error codes (P-codes) and used live data streaming to identify and replace faulty O2, MAF, or TPS sensors.|
 | **Custom C shell** | Git, Linux, C/C++, html, CSS  | Current work in progress working with Linux kernals and command line. Goal more optimization and understanding for my person Linux distro uses.  |
-| **Custom digital RMP gauge and MPG optimizer** | Python, Toyota TechStream | Using a ESP32 for interface, OP2D plug and sideloaded app for testing. Current work in progress. End goal is  using more of the ESP32's Bluetooth capabilities  |
-| **Camp Buddy App** | Python, Toyota TechStream | Current team project in CMPE 131 Software Engineering. The goal of the app is to optimize and organize camping teams so items are noted and brought. USGS maps pushes to uses in group and available for free download to phone.  |
-| **Quantum Physics Simulation** | Linux VM, C++, C#, VS debugger | (Linux Group Project) This was with some students at UCSC. Mainly kitty coded by physics majors then I was brought on the team for debugging and using C++ knowledge managed to make the simulation %40.1 more optimized.  |
+| **Camp Buddy App** | Python, GIThub, USGS maps | Current team project in CMPE 131 Software Engineering. The goal of the app is to optimize and organize camping teams so items are noted and brought. USGS maps pushes to uses in group and available for free download to phone.  |
 
 <h2 id="academic">Academic Work</h2>
 
@@ -78,12 +78,12 @@ Currently exploring the **Discrete-Time Fourier Transform (DTFT)**. The transfor
 
 $$X(e^{j\omega}) = \sum_{n=-\infty}^{\infty} x[n] e^{-j\omega n}$$
 
-As I'm learning, I've apply this to noise-reduction algorithms in low-power sensors in personally fun test projects.
+As I'm learning, I've apply this to noise-reduction algorithms in low-power sensors in personally fun test projects!
 
 ---
 
 
-![Project Image](/assets/img/project-screenshot.png)
+![Project Image](/assets/img/project-screenshot.JPG)
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
